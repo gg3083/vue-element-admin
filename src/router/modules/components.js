@@ -8,7 +8,7 @@ const componentsRouter = {
   redirect: 'noRedirect',
   name: 'ComponentDemo',
   meta: {
-    title: 'Components',
+    title: '组件',
     icon: 'component'
   },
   children: [
@@ -16,7 +16,7 @@ const componentsRouter = {
       path: 'tinymce',
       component: () => import('@/views/components-demo/tinymce'),
       name: 'TinymceDemo',
-      meta: { title: 'Tinymce' }
+      meta: { title: 'Tinymce富文本' }
     },
     {
       path: 'markdown',
@@ -28,25 +28,25 @@ const componentsRouter = {
       path: 'json-editor',
       component: () => import('@/views/components-demo/json-editor'),
       name: 'JsonEditorDemo',
-      meta: { title: 'JSON Editor' }
+      meta: { title: 'JSON 编辑器' }
     },
     {
       path: 'split-pane',
       component: () => import('@/views/components-demo/split-pane'),
       name: 'SplitpaneDemo',
-      meta: { title: 'SplitPane' }
+      meta: { title: '分割面板' }
     },
     {
       path: 'avatar-upload',
       component: () => import('@/views/components-demo/avatar-upload'),
       name: 'AvatarUploadDemo',
-      meta: { title: 'Upload' }
+      meta: { title: '上传' }
     },
     {
       path: 'dropzone',
       component: () => import('@/views/components-demo/dropzone'),
       name: 'DropzoneDemo',
-      meta: { title: 'Dropzone' }
+      meta: { title: 'Dropzone文件上传' }
     },
     {
       path: 'sticky',
